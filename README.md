@@ -5,3 +5,5 @@ e para facilitar meu trabalho fiz um mini algoritmo que converte o que eu desenh
 
 os codigos são baseados no adafruit, que já te libera uma base para começar a mexer com a telinha!  
 caso queira utilizar use o link abaixo:
+
+https://ultimatestrength.github.io/Conversor-de-Pixeis/
