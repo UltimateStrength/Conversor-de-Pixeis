@@ -1,0 +1,74 @@
+body{
+    background-color: #363636;
+    color: #ffffff;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 760px auto;
+    gap: 10px;
+
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(128, 5px);
+    grid-template-rows: repeat(64, 5px);
+    gap: 1px;
+}
+.cell {
+    width: 5px;
+    height: 5px;
+    background-color: #000000;
+    border: 1px solid #474747;
+}
+
+.cell:hover {
+    background-color: #676767;
+}
+
+#copyButton {
+    background: url('assets/copy.png') no-repeat center;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+#pasteButton {
+    background: url('assets/paste.png') no-repeat center;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+#clearButton {
+    background: url('assets/clear.png') no-repeat center;
+    border: none;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+}
+
+
+#copyButton:hover {
+    width: 45px;
+    height: 45px;
+}
+
+#pasteButton:hover {
+    width: 45px;
+    height: 45px;
+}
+
+#clearButton:hover {
+    width: 45px;
+    height: 45px;
+}

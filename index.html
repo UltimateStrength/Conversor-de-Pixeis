@@ -5,23 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/logosite.png">
+
     <title>Conversor de Pixeis</title>
 
 </head>
 
 <body>
+
+    <div class="grid-container">
+        <div class="grid" id="grid"></div>
+        <div>
     
-    <div class="grid" id="grid"></div>
-    
-    <div>
-        <textarea id="output" placeholder="Output" readonly></textarea>
-        <button id="drawButton">Ver Output</button>
+    <div class="button-container">
+
+        <button id="copyButton">
+            <img src="assets/copy.png" id="copyButton">
+        </button>
+        
+        <button id="pasteButton">
+            <img src="assets/paste.png" id="pasteButton">
+        </button>
+
+        <button id="clearButton">
+            <img src="assets/clear.png" id="clearButton">
+        </button>
+
     </div>
 
-    <script src="main.js"></script>
-    <script src="filter.js"></script>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/filter.js"></script>
 
 </body>
-
 </html>
